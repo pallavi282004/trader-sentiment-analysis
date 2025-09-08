@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             closed_pnl   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     32.04
+Date:                Mon, 08 Sep 2025   Prob (F-statistic):           1.25e-14
+Time:                        23:28:39   Log-Likelihood:            -3.0956e+05
+No. Observations:               35864   AIC:                         6.191e+05
+Df Residuals:                   35861   BIC:                         6.192e+05
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept     -418.2543     62.704     -6.670      0.000    -541.151    -295.358
+sent_val         0.9950      0.342      2.907      0.004       0.324       1.666
+log_notional    72.5182      9.147      7.928      0.000      54.590      90.446
+==============================================================================
+Omnibus:                    42633.091   Durbin-Watson:                   1.464
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):       6563104266.530
+Skew:                          -4.379   Prob(JB):                         0.00
+Kurtosis:                    2098.690   Cond. No.                         234.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

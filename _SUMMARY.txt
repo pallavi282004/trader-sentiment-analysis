@@ -1,0 +1,11 @@
+Outputs:
+
+- merged_trades_sentiment.csv
+- daily_aggregates.csv
+- account_aggregates.csv
+- sentiment_bucket_summary.csv
+- fear_vs_greed_tests.csv
+- ols_summary.txt
+- daily_pnl_vs_sentiment.png
+- boxplot_pnl_by_sentiment.png
+- account_clusters.csv (if clustering succeeded)
